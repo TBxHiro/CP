@@ -1,3 +1,4 @@
+//30 ms	200 KB
 #include <bits/stdc++.h>
 using namespace std;
 int main()
@@ -6,7 +7,7 @@ int main()
 
   cin >> n >> m;
   string a[n];
-  
+
   for (int i = 0; i < n; i++)
   {
     cin >> a[i];
@@ -26,19 +27,12 @@ int main()
       }
     }
   }
-  // Testing
-  // for (int i = 0; i<n; i++){
-  //     cout<<"a["<<i<<"]- "<<a[i]<<endl;
-  // }
-
-  // cout<<"max- "<<maxIndex<<endl;
-  // cout<<"min- "<<minIndex<<endl;
 
   for (int i = 0; i < m; i++)
   {
     if (a[maxIndex][i] != a[minIndex][i])
     {
-      cout << minIndex << " " << i << endl;
+      cout << (minIndex + 1) << " " << (i + 1) << endl;
       break;
     }
   }
