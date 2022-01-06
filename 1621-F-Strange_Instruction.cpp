@@ -10,6 +10,7 @@ int main()
   {
     int n, a, b, c, count = 0, lastOp = 0;
     string s, right;
+    bool zerotwo = true;
     // int loop = 0;
     // bool twoone = true;
 
