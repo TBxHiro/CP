@@ -12,10 +12,8 @@ int main()
     ++n;
 
     for (int i = 2; i * i <= n; ++i)
-    {
       if (n % i == 0)
         nonprime = true;
-    }
 
     if (!nonprime)
     {
@@ -23,7 +21,6 @@ int main()
         cout << "YES";
       else
         cout << "NO";
-
       return 0;
     }
   }

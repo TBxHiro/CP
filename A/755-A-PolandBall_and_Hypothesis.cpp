@@ -5,19 +5,24 @@ int main()
   int n;
   cin >> n;
 
-  for (int m = 0; m < 10 * 10 * 10; ++m)
+  for (int m = 1; m < 10 * 10 * 10; ++m)
   {
     int t = (n * m) + 1;
     bool notprime = false;
-
-    for (int i = 1; i < t; ++i)
+    //cout << "m- " << m << endl;
+    for (int i = 2; i < t; i++)
     {
       if (t % i == 0)
       {
         notprime = true;
+        //cout << "i- " << i << "; m- " << m << endl;
         break;
       }
     }
-    i
+    if (notprime)
+    {
+      cout << m;
+      break;
+    }
   }
 }
