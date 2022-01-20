@@ -18,5 +18,15 @@ int main()
       cout << "Yes" << endl;
     else
       cout << "No" << endl;
+
+    // if (a1 > b1)
+    //   swap(a1, b1);
+    // if (a2 > b2)
+    //   swap(a2, b2);
+
+    // if (a1 + a2 == b1 && b2 == b1)
+    //   cout << "YES\n";
+    // else
+    //   cout << "NO\n";
   }
 }
