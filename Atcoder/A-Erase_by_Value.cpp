@@ -1,5 +1,3 @@
-// Bismillahir Rahmanir Rahim
-// Read the name of Allah, who created you!
 // https://atcoder.jp/contests/arc133/tasks/arc133_a
 
 #include <bits/stdc++.h>
