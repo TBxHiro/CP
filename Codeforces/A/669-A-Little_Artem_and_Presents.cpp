@@ -8,7 +8,8 @@ void solve()
 {
   int n;
   cin >> n;
-  
+
+  cout << (n / 3) * 2 + (n % 3 != 0 ? 1 : 0) << endl;
 }
 
 int32_t main()
