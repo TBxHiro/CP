@@ -6,8 +6,10 @@ using namespace std;
 
 void solve()
 {
-  int n;
-  cin >> n;
+  int k, n, w;
+  cin >> k >> n >> w;
+
+  
 }
 
 int32_t main()
@@ -16,8 +18,8 @@ int32_t main()
   cin.tie(NULL);
   cout.tie(NULL);
 
-  int t;
-  cin >> t;
+  int t = 1;
+  // cin >> t;
   while (t--)
     solve();
 

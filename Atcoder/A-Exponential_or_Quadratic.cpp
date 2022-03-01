@@ -1,3 +1,5 @@
+// https://atcoder.jp/contests/abc238/tasks/abc238_a
+
 #include <bits/stdc++.h>
 #define f(i, n) for (int i = 0; i < n; i++)
 #define fab(i, a, b) for (int i = a; i < b; i++)
@@ -8,6 +10,11 @@ void solve()
 {
   int n;
   cin >> n;
+
+  if (pow(2, n) > pow(n, 2))
+    cout << "Yes" << endl;
+  else
+    cout << "No" << endl;
 }
 
 int32_t main()
@@ -16,8 +23,8 @@ int32_t main()
   cin.tie(NULL);
   cout.tie(NULL);
 
-  int t;
-  cin >> t;
+  int t = 1;
+  // cin >> t;
   while (t--)
     solve();
 

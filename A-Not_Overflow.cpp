@@ -1,3 +1,5 @@
+// https://atcoder.jp/contests/abc237/tasks/abc237_a
+
 #include <bits/stdc++.h>
 #define f(i, n) for (int i = 0; i < n; i++)
 #define fab(i, a, b) for (int i = a; i < b; i++)
@@ -6,8 +8,14 @@ using namespace std;
 
 void solve()
 {
-  int n;
+  long long int n, p = pow(2, 31);
   cin >> n;
+  cout << (n < 0 ? abs(n) <= p
+                       ? "Yes"
+                       : "No"
+           : n < p
+               ? "Yes"
+               : "No");
 }
 
 int32_t main()
@@ -16,8 +24,8 @@ int32_t main()
   cin.tie(NULL);
   cout.tie(NULL);
 
-  int t;
-  cin >> t;
+  int t = 1;
+  // cin >> t;
   while (t--)
     solve();
 
