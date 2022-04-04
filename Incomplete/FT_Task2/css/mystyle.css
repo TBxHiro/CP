@@ -1,0 +1,48 @@
+#labels
+{
+  color: brown;
+  font-size: 20px;
+}
+
+#box
+{
+  border: 2px solid red; /*border-top: ;*/
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.button
+{
+  border: 2px solid grey; /*border-top: ;*/
+  border-radius: 25px;
+  width: 100px;
+  /* height: ; */
+}
+
+.btnsubmit
+{
+  background-color: green;
+  color: black;
+}
+
+.btnreset
+{
+  background-color: red;
+  color: white;
+}
+
+.btnupdate
+{
+  background-color: blue;
+  color: white;
+  position: relative;
+  top: 30px;
+}
+
+#myrelativeposition
+{
+
+}
+
+/*Fixed*/
+/*Sticky*/
