@@ -38,7 +38,7 @@ int main()
         int i = -1;
         string token = "";
 
-        while (i++ != line.length() - 1)
+        while (++i != line.length() - 1)
         {
             if ((line[i] >= 'A' && line[i] <= 'Z') || (line[i] >= 'a' && line[i] <= 'z'))
             {
